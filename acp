@@ -1,0 +1,6 @@
+bill = int(input("How much is the total bill : "))
+paid = int(input("How much you have paid : "))
+
+change = paid - bill
+
+print("The shopkeeper should return: $", change)
